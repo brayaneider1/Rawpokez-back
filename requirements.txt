@@ -1,0 +1,39 @@
+# FastAPI core
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+
+# SQLModel + Database
+sqlmodel==0.0.21
+asyncpg==0.30.0
+alembic==1.14.0
+psycopg2-binary==2.9.10
+
+# Settings
+pydantic-settings==2.6.1
+pydantic[email]==2.9.2
+
+# Auth / security
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.12
+
+# HTTP client (Groq API + WhatsApp microservice + MercadoPago)
+httpx==0.27.2
+
+# Cloudinary (uploads de imágenes)
+cloudinary==1.41.0
+
+# Google APIs (Calendar)
+google-auth==2.36.0
+google-auth-oauthlib==1.2.1
+google-auth-httplib2==0.2.0
+google-api-python-client==2.154.0
+
+# Web Push Notifications (VAPID)
+pywebpush==2.0.0
+
+# MercadoPago (Colombia)
+mercadopago==2.3.0
+
+# Utils
+python-dotenv==1.0.1
