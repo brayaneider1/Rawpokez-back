@@ -20,8 +20,8 @@ python-multipart==0.0.12
 # HTTP client (Groq API + WhatsApp microservice + MercadoPago)
 httpx==0.27.2
 
-# Cloudinary (uploads de imágenes)
-cloudinary==1.41.0
+# Azure Blob Storage (uploads de imágenes — reemplaza Cloudinary)
+azure-storage-blob==12.23.1
 
 # Google APIs (Calendar)
 google-auth==2.36.0
@@ -37,3 +37,8 @@ mercadopago==2.3.0
 
 # Utils
 python-dotenv==1.0.1
+
+# Azure SDK — Key Vault + Managed Identity (producción en Azure)
+# DefaultAzureCredential usa Managed Identity en Azure, y az login en local
+azure-keyvault-secrets==4.8.0
+azure-identity==1.19.0
